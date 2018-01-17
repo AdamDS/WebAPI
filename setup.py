@@ -5,16 +5,16 @@ with open( "version.py" ) as fp:
     exec( fp.read() , versionDict )
 version = versionDict[ '__version__' ]
 setup( \
-	name = 'WebAPIs' , 
+	name = 'WebAPI' , 
 	version = versionDict[ '__version__' ] ,
 	author = 'Adam D Scott' ,
 	author_email = 'adam@adamscottphd.com' ,
 	maintainer = 'Adam D Scott' ,
 	maintainer_email = 'adam@adamscottphd.com' ,
-	url = 'https://github.com/AdamDS/WebAPIs' ,
+	url = 'https://github.com/AdamDS/WebAPI' ,
 	description = 'Web-based APIs toolkit' ,
 	long_description = 'Basic toolkit for web-based APIs.' ,
-	download_url = 'https://github.com/AdamDS/WebAPIs/archive/' + \
+	download_url = 'https://github.com/AdamDS/WebAPI/archive/' + \
 		version + '.tar.gz' ,
 	classifiers = [ \
 		"License :: OSI Approved :: MIT License " , 
